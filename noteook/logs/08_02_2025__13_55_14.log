@@ -1,0 +1,6 @@
+[ 2025-08-02 13:55:14,426 ] ERROR customlogger.py  (line 9) - Error in [C:\Users\mayur\AppData\Local\Temp\ipykernel_20432\385823998.py] at line [3]
+Message:division by zero\Traceback:Traceback (most recent call last):
+  File "C:\Users\mayur\AppData\Local\Temp\ipykernel_20432\385823998.py", line 3, in <module>
+    a = 1 / 0
+ZeroDivisionError: division by zero
+
