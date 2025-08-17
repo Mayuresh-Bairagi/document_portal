@@ -1,0 +1,8 @@
+{"session_id": "test_ingestion_analysis", "session_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-08-16T18:18:38.278288Z", "level": "PDF Handler initialized "}
+{"filename": "HC-Verma-Concepts-of-Physics-Volume-1.pdf", "save_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "timestamp": "2025-08-16T18:18:38.322370Z", "level": "PDF saved successfully"}
+{"pdf_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "pages": 473, "timestamp": "2025-08-16T18:19:05.263965Z", "level": "Pdf read successfully"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-08-16T18:19:05.312601Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-08-16T18:19:05.341188Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-08-16T18:19:05.341188Z", "level": "Loading LLM"}
+{"provider": "groq", "model": "deepseek-r1-distill-llama-70b", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-08-16T18:19:05.342185Z", "level": "Loading LLM"}
+{"timestamp": "2025-08-16T18:19:05.768144Z", "level": "Error initializing DocumentAnalyzer :'BoundLoggerLazyProxy' object is not callable"}

@@ -1,0 +1,10 @@
+{"session_id": "test_ingestion_analysis", "session_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-08-16T18:21:10.013845Z", "level": "PDF Handler initialized "}
+{"filename": "HC-Verma-Concepts-of-Physics-Volume-1.pdf", "save_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "timestamp": "2025-08-16T18:21:10.021973Z", "level": "PDF saved successfully"}
+{"pdf_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "pages": 473, "timestamp": "2025-08-16T18:21:38.537984Z", "level": "Pdf read successfully"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-08-16T18:21:38.541981Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-08-16T18:21:38.544979Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-08-16T18:21:38.546129Z", "level": "Loading LLM"}
+{"provider": "groq", "model": "deepseek-r1-distill-llama-70b", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-08-16T18:21:38.546129Z", "level": "Loading LLM"}
+{"timestamp": "2025-08-16T18:21:38.952643Z", "level": "DocumentAnalyzer Initialized successfully"}
+{"timestamp": "2025-08-16T18:21:38.953563Z", "level": "Meta-data analysis chain initalized"}
+{"error": "\"Input to ChatPromptTemplate is missing variables {'format_instructions'}.  Expected: ['document_text', 'format_instructions'] Received: ['format_instruction', 'document_text']\\nNote: if you intended {format_instructions} to be part of the string and not a variable, please escape it with double curly braces like: '{{format_instructions}}'.\\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT \"", "timestamp": "2025-08-16T18:21:38.991193Z", "level": "Metadata analysis falied"}

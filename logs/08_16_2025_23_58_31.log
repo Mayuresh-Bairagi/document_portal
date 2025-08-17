@@ -1,0 +1,10 @@
+{"session_id": "test_ingestion_analysis", "session_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-08-16T18:28:31.744818Z", "level": "PDF Handler initialized "}
+{"filename": "HC-Verma-Concepts-of-Physics-Volume-1.pdf", "save_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "timestamp": "2025-08-16T18:28:31.755195Z", "level": "PDF saved successfully"}
+{"pdf_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "pages": 473, "timestamp": "2025-08-16T18:29:04.985937Z", "level": "Pdf read successfully"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-08-16T18:29:05.021705Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-08-16T18:29:05.028624Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-08-16T18:29:05.029625Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-08-16T18:29:05.030623Z", "level": "Loading LLM"}
+{"timestamp": "2025-08-16T18:29:05.135752Z", "level": "DocumentAnalyzer Initialized successfully"}
+{"timestamp": "2025-08-16T18:29:05.136756Z", "level": "Meta-data analysis chain initalized"}
+{"keys": ["Summary", "Title", "Author", "DataCreated", "LastModifiedData", "Publisher", "Language", "PageCount", "Sentiment"], "timestamp": "2025-08-16T18:29:29.355043Z", "level": "Metadata extraction successful"}

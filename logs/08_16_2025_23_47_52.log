@@ -1,0 +1,2 @@
+{"session_id": "test_ingestion_analysis", "session_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-08-16T18:17:52.532496Z", "level": "PDF Handler initialized "}
+{"timestamp": "2025-08-16T18:17:52.534063Z", "level": "Error saving PDF: [Errno 2] No such file or directory: 'C:\\\\\\\\Users\\\\\\\\sunny\\\\\\\\document_portal\\\\\\\\data\\\\\\\\document_analysis\\\\\\\\sample.pdf'"}

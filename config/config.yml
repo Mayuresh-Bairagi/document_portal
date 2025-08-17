@@ -15,8 +15,8 @@ llm:
     temperature : 0.0
     max_output_tokens : 2048
   
-  # google:
-  #   provider : "google"
-  #   model_name : "gemini-2.0-flash"
-  #   temperature : 0.0
-  #   max_output_tokens : 2048
+  google:
+    provider : "google"
+    model_name : "gemini-2.0-flash"
+    temperature : 0.0
+    max_output_tokens : 2048

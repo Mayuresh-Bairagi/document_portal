@@ -1,0 +1,11 @@
+{"session_id": "test_ingestion_analysis", "session_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-08-16T18:25:50.328618Z", "level": "PDF Handler initialized "}
+{"filename": "HC-Verma-Concepts-of-Physics-Volume-1.pdf", "save_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "timestamp": "2025-08-16T18:25:50.338625Z", "level": "PDF saved successfully"}
+{"pdf_path": "D:\\College\\LLMOPS\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\HC-Verma-Concepts-of-Physics-Volume-1.pdf", "session_id": "test_ingestion_analysis", "pages": 473, "timestamp": "2025-08-16T18:26:23.237189Z", "level": "Pdf read successfully"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-08-16T18:26:23.273018Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-08-16T18:26:23.306704Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-08-16T18:26:23.307717Z", "level": "Loading LLM"}
+{"provider": "groq", "model": "deepseek-r1-distill-llama-70b", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-08-16T18:26:23.308708Z", "level": "Loading LLM"}
+{"timestamp": "2025-08-16T18:26:23.652464Z", "level": "DocumentAnalyzer Initialized successfully"}
+{"timestamp": "2025-08-16T18:26:23.653598Z", "level": "Meta-data analysis chain initalized"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+{"error": "Error code: 413 - {'error': {'message': 'Request too large for model `deepseek-r1-distill-llama-70b` in organization `org_01j6041rwtfs5asyqcy3a80kbd` service tier `on_demand` on tokens per day (TPD): Limit 100000, Requested 491949, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2025-08-16T18:26:24.798677Z", "level": "Metadata analysis falied"}
