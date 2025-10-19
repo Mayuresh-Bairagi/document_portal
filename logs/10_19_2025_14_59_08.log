@@ -1,0 +1,13 @@
+{"base_dir": "data\\document_compare", "session_id": "Session_20251019_092910_04e485d1", "session_path": "data\\document_compare\\Session_20251019_092910_04e485d1", "timestamp": "2025-10-19T09:29:10.466571Z", "level": "Session initialized"}
+{"reference": "data\\document_compare\\Session_20251019_092910_04e485d1\\MayureshBairagi_Resume.pdf", "actual": "data\\document_compare\\Session_20251019_092910_04e485d1\\MayureshBairagiVIIT.pdf", "session": "Session_20251019_092910_04e485d1", "timestamp": "2025-10-19T09:29:10.469569Z", "level": "Files saved"}
+{"file": "data\\document_compare\\Session_20251019_092910_04e485d1\\MayureshBairagi_Resume.pdf", "pages": 1, "timestamp": "2025-10-19T09:29:10.551200Z", "level": "PDF read successfully"}
+{"file": "data\\document_compare\\Session_20251019_092910_04e485d1\\MayureshBairagiVIIT.pdf", "pages": 1, "timestamp": "2025-10-19T09:29:10.644108Z", "level": "PDF read successfully"}
+{"count": 2, "session": "Session_20251019_092910_04e485d1", "timestamp": "2025-10-19T09:29:10.645109Z", "level": "Documents combined"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T09:29:10.653388Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T09:29:10.660461Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T09:29:10.660461Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-10-19T09:29:10.661421Z", "level": "Loading LLM"}
+{"model": "ChatGoogleGenerativeAI(model='models/gemini-2.0-flash', google_api_key=SecretStr('**********'), temperature=0.0, max_output_tokens=2048, client=<google.ai.generativelanguage_v1beta.services.generative_service.client.GenerativeServiceClient object at 0x0000022D6AE47CD0>, default_metadata=(), model_kwargs={})", "timestamp": "2025-10-19T09:29:10.710538Z", "level": "DocumentComparatorLLM initialized"}
+{"timestamp": "2025-10-19T09:29:10.715616Z", "level": "Invoking document comparison LLM chain"}
+{"response_preview": "[{'Page': '1', 'Changes': 'The first PDF is a resume with a summary, technical skills, experience, projects, education, and achievements & certifications. The second PDF is a resume with a different s", "timestamp": "2025-10-19T09:29:13.080390Z", "level": "Chain invoked successfully"}
+{"path": "data\\document_compare\\session_20250912_004531_2f3bf866", "timestamp": "2025-10-19T09:29:13.099467Z", "level": "Old session folder deleted"}

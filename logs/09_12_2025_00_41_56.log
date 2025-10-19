@@ -1,0 +1,11 @@
+{"session_path": "data\\document_compare\\session_20250912_004157_d378f80c", "timestamp": "2025-09-11T19:11:57.832755Z", "level": "DocumentComparator initialized"}
+{"reference": "data\\document_compare\\session_20250912_004157_d378f80c\\MayureshBairagiVIIT.pdf", "actual": "data\\document_compare\\session_20250912_004157_d378f80c\\MayureshBairagiVIIT.pdf", "session": "session_20250912_004157_d378f80c", "timestamp": "2025-09-11T19:11:57.834089Z", "level": "Files saved"}
+{"file": "data\\document_compare\\session_20250912_004157_d378f80c\\MayureshBairagiVIIT.pdf", "pages": 1, "timestamp": "2025-09-11T19:11:57.867209Z", "level": "PDF read successfully"}
+{"count": 1, "session": "session_20250912_004157_d378f80c", "timestamp": "2025-09-11T19:11:57.868281Z", "level": "Documents combined"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-09-11T19:11:57.874288Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-09-11T19:11:57.877280Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-09-11T19:11:57.877280Z", "level": "Loading LLM"}
+{"provider": "groq", "model": "deepseek-r1-distill-llama-70b", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-09-11T19:11:57.879205Z", "level": "Loading LLM"}
+{"model": "ChatGroq(client=<groq.resources.chat.completions.Completions object at 0x000001161457E470>, async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x00000116145BC700>, model_name='deepseek-r1-distill-llama-70b', temperature=1e-08, model_kwargs={}, groq_api_key=SecretStr('**********'))", "timestamp": "2025-09-11T19:11:58.123870Z", "level": "DocumentComparatorLLM initialized"}
+{"timestamp": "2025-09-11T19:11:58.126113Z", "level": "Invoking document comparison LLM chain"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

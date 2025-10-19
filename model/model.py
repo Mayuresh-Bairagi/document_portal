@@ -27,4 +27,4 @@ class PromptType(str,Enum):
     CONTEXTUALIZE_QUESTION = 'contextualize_question'
     CONTEXT_QA = 'context_qa'
 
-    
+        

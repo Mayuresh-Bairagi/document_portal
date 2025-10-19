@@ -1,0 +1,11 @@
+{"base_dir": "data\\document_compare", "session_id": "Session_20251019_092524_8e357f08", "session_path": "data\\document_compare\\Session_20251019_092524_8e357f08", "timestamp": "2025-10-19T09:25:24.422154Z", "level": "Session initialized"}
+{"reference": "data\\document_compare\\Session_20251019_092524_8e357f08\\MayureshBairagiVIIT.pdf", "actual": "data\\document_compare\\Session_20251019_092524_8e357f08\\MayureshBairagiVIIT.pdf", "session": "Session_20251019_092524_8e357f08", "timestamp": "2025-10-19T09:25:24.489182Z", "level": "Files saved"}
+{"file": "data\\document_compare\\Session_20251019_092524_8e357f08\\MayureshBairagiVIIT.pdf", "pages": 1, "timestamp": "2025-10-19T09:25:24.621743Z", "level": "PDF read successfully"}
+{"count": 1, "session": "Session_20251019_092524_8e357f08", "timestamp": "2025-10-19T09:25:24.623814Z", "level": "Documents combined"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T09:25:24.642773Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T09:25:24.723316Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T09:25:24.725327Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-10-19T09:25:24.726319Z", "level": "Loading LLM"}
+{"model": "ChatGoogleGenerativeAI(model='models/gemini-2.0-flash', google_api_key=SecretStr('**********'), temperature=0.0, max_output_tokens=2048, client=<google.ai.generativelanguage_v1beta.services.generative_service.client.GenerativeServiceClient object at 0x000001E21991BB20>, default_metadata=(), model_kwargs={})", "timestamp": "2025-10-19T09:25:24.908902Z", "level": "DocumentComparatorLLM initialized"}
+{"timestamp": "2025-10-19T09:25:24.919125Z", "level": "Invoking document comparison LLM chain"}
+{"error": "Invalid argument provided to Gemini: 400 API key expired. Please renew the API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key expired. Please renew the API key.\"\n]", "timestamp": "2025-10-19T09:25:25.484066Z", "level": "Error in compare_documents"}

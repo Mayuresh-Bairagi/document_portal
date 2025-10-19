@@ -1,0 +1,5 @@
+{"session_path": "data\\document_compare\\session_20250912_003241_bf342ac0", "timestamp": "2025-09-11T19:02:41.291242Z", "level": "DocumentComparator initialized"}
+{"reference": "data\\document_compare\\session_20250912_003241_bf342ac0\\MayureshBairagiVIIT.pdf", "actual": "data\\document_compare\\session_20250912_003241_bf342ac0\\MayureshBairagiVIIT01.pdf", "session": "session_20250912_003241_bf342ac0", "timestamp": "2025-09-11T19:02:41.364263Z", "level": "Files saved"}
+{"file": "data\\document_compare\\session_20250912_003241_bf342ac0\\MayureshBairagiVIIT.pdf", "pages": 1, "timestamp": "2025-09-11T19:02:41.458322Z", "level": "PDF read successfully"}
+{"file": "data\\document_compare\\session_20250912_003241_bf342ac0\\MayureshBairagiVIIT01.pdf", "pages": 1, "timestamp": "2025-09-11T19:02:41.502857Z", "level": "PDF read successfully"}
+{"count": 2, "session": "session_20250912_003241_bf342ac0", "timestamp": "2025-09-11T19:02:41.503900Z", "level": "Documents combined"}

@@ -1,0 +1,18 @@
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T18:13:40.406096Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T18:13:40.413640Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T18:13:40.414646Z", "level": "Loading embeddings"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T18:13:40.628163Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T18:13:40.644224Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T18:13:40.645225Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-10-19T18:13:40.645225Z", "level": "Loading LLM"}
+{"session_id": "test-session", "timestamp": "2025-10-19T18:13:40.674520Z", "level": "LLM loaded successfully"}
+{"session_id": "test-session", "timestamp": "2025-10-19T18:13:40.675522Z", "level": "ConversationalRAG initialized"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T18:13:40.682044Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T18:13:40.689584Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T18:13:40.689584Z", "level": "Loading embeddings"}
+{"session_id": "test-session", "timestamp": "2025-10-19T18:13:40.712630Z", "level": "LCEL graph built successfully"}
+{"index_path": "data\\faiss_index", "index_name": "index", "k": 5, "session_id": "test-session", "timestamp": "2025-10-19T18:13:40.712630Z", "level": "FAISS retriever loaded successfully"}
+{"session_id": "test-session", "user_input": "who is the author of the document?", "answer_preview": "The author of the document is H C Verma.", "timestamp": "2025-10-19T18:13:43.543570Z", "level": "Chain invoked successfully"}

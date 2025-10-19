@@ -27,7 +27,6 @@ Your response should follow this format:
 
 {format_instruction}
 """)
-
 contextualize_question_prompt = ChatPromptTemplate.from_messages([
     ("system", (
         "Given a conversation history and the most recent user query, rewrite the query as a standalone question "

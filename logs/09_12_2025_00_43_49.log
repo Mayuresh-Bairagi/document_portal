@@ -1,0 +1,11 @@
+{"session_path": "data\\document_compare\\session_20250912_004350_8a093c37", "timestamp": "2025-09-11T19:13:50.491066Z", "level": "DocumentComparator initialized"}
+{"reference": "data\\document_compare\\session_20250912_004350_8a093c37\\MayureshBairagiVIIT.pdf", "actual": "data\\document_compare\\session_20250912_004350_8a093c37\\MayureshBairagiVIIT.pdf", "session": "session_20250912_004350_8a093c37", "timestamp": "2025-09-11T19:13:50.492057Z", "level": "Files saved"}
+{"file": "data\\document_compare\\session_20250912_004350_8a093c37\\MayureshBairagiVIIT.pdf", "pages": 1, "timestamp": "2025-09-11T19:13:50.526485Z", "level": "PDF read successfully"}
+{"count": 1, "session": "session_20250912_004350_8a093c37", "timestamp": "2025-09-11T19:13:50.527499Z", "level": "Documents combined"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-09-11T19:13:50.533408Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-09-11T19:13:50.536406Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-09-11T19:13:50.537451Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-09-11T19:13:50.537451Z", "level": "Loading LLM"}
+{"model": "ChatGoogleGenerativeAI(model='models/gemini-2.0-flash', google_api_key=SecretStr('**********'), temperature=0.0, max_output_tokens=2048, client=<google.ai.generativelanguage_v1beta.services.generative_service.client.GenerativeServiceClient object at 0x00000230BC85BB80>, default_metadata=(), model_kwargs={})", "timestamp": "2025-09-11T19:13:50.573071Z", "level": "DocumentComparatorLLM initialized"}
+{"timestamp": "2025-09-11T19:13:50.575640Z", "level": "Invoking document comparison LLM chain"}
+{"error": "Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]", "timestamp": "2025-09-11T19:13:50.947892Z", "level": "Error in compare_documents"}

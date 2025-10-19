@@ -1,0 +1,18 @@
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T18:10:16.548953Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T18:10:16.588715Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T18:10:16.589779Z", "level": "Loading embeddings"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T18:11:09.305990Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T18:11:09.319340Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T18:11:09.320343Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-10-19T18:11:09.327941Z", "level": "Loading LLM"}
+{"session_id": "test-session", "timestamp": "2025-10-19T18:11:09.375085Z", "level": "LLM loaded successfully"}
+{"session_id": "test-session", "timestamp": "2025-10-19T18:11:09.375085Z", "level": "ConversationalRAG initialized"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-10-19T18:11:09.380602Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-10-19T18:11:09.387602Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-10-19T18:11:09.388119Z", "level": "Loading embeddings"}
+{"session_id": "test-session", "timestamp": "2025-10-19T18:11:09.489703Z", "level": "LCEL graph built successfully"}
+{"index_path": "data\\faiss_index", "index_name": "index", "k": 5, "session_id": "test-session", "timestamp": "2025-10-19T18:11:09.490786Z", "level": "FAISS retriever loaded successfully"}
+{"session_id": "test-session", "user_input": "What is the main topic discussed in these PDFs?", "answer_preview": "The PDFs mainly discuss physics, including topics such as introduction to physics, physics and mathematics, rest and motion (kinematics), forces, Newt", "timestamp": "2025-10-19T18:11:12.595644Z", "level": "Chain invoked successfully"}

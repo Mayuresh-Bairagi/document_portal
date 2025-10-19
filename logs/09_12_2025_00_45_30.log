@@ -1,0 +1,15 @@
+{"session_path": "data\\document_compare\\session_20250912_004531_2f3bf866", "timestamp": "2025-09-11T19:15:31.737471Z", "level": "DocumentComparator initialized"}
+{"reference": "data\\document_compare\\session_20250912_004531_2f3bf866\\MayureshBairagiVIIT.pdf", "actual": "data\\document_compare\\session_20250912_004531_2f3bf866\\MayureshBairagiVIIT.pdf", "session": "session_20250912_004531_2f3bf866", "timestamp": "2025-09-11T19:15:31.738473Z", "level": "Files saved"}
+{"file": "data\\document_compare\\session_20250912_004531_2f3bf866\\MayureshBairagiVIIT.pdf", "pages": 1, "timestamp": "2025-09-11T19:15:31.773109Z", "level": "PDF read successfully"}
+{"count": 1, "session": "session_20250912_004531_2f3bf866", "timestamp": "2025-09-11T19:15:31.773109Z", "level": "Documents combined"}
+{"available_keys": ["GROQ_API_KEY", "GOOGLE_API_KEY"], "timestamp": "2025-09-11T19:15:31.777339Z", "level": "Environment variables validated successfully"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-09-11T19:15:31.781482Z", "level": "Configurations loaded successfully"}
+{"timestamp": "2025-09-11T19:15:31.781482Z", "level": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0.0, "max_tokens": 2048, "timestamp": "2025-09-11T19:15:31.781482Z", "level": "Loading LLM"}
+{"model": "ChatGoogleGenerativeAI(model='models/gemini-2.0-flash', google_api_key=SecretStr('**********'), temperature=0.0, max_output_tokens=2048, client=<google.ai.generativelanguage_v1beta.services.generative_service.client.GenerativeServiceClient object at 0x0000024F2305B820>, default_metadata=(), model_kwargs={})", "timestamp": "2025-09-11T19:15:31.804758Z", "level": "DocumentComparatorLLM initialized"}
+{"timestamp": "2025-09-11T19:15:31.808754Z", "level": "Invoking document comparison LLM chain"}
+{"response_preview": "[{'Page': '1', 'Changes': 'LLM Tools: LangChain, Gemini AI (GenAI), OpenAI, Groq, Retrieval-Augmented Generation (RAG)\\n\\nChanged to:\\n\\nLLM Tools: LangChain, Gemini, OpenAI, Pinecone, Chroma, Weaviat", "timestamp": "2025-09-11T19:15:34.649386Z", "level": "Chain invoked successfully"}
+{"path": "data\\document_compare\\session_20250912_004157_d378f80c", "timestamp": "2025-09-11T19:15:34.681399Z", "level": "Old session folder deleted"}
+{"path": "data\\document_compare\\session_20250912_003924_1bad4100", "timestamp": "2025-09-11T19:15:34.683400Z", "level": "Old session folder deleted"}
+{"path": "data\\document_compare\\session_20250912_003241_bf342ac0", "timestamp": "2025-09-11T19:15:34.684397Z", "level": "Old session folder deleted"}
+{"path": "data\\document_compare\\session_20250912_001219_97258317", "timestamp": "2025-09-11T19:15:34.685394Z", "level": "Old session folder deleted"}
